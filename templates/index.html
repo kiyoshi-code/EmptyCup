@@ -2,153 +2,154 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Full Stack Assignment</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" />
-    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Full Stack Assignment</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" />
+  <script src="{{ url_for('static', filename='js/script.js') }}"></script>
 </head>
 
 <body>
-    <main>
-        <section id="navigation">
-            <div id = "upnav">
-                <img src="{{url_for('static', filename='icons/logo.png')}}" alt="logo">
-                <h2>EmptyCup</h2>
-                <img src="{{url_for('static',filename='icons/3dots.png')}}" alt="3dots">
-            </div>
-            <div id = "downnav"> 
-                <div id = "downnavleft"> 
-                    <img src="{{ url_for('static', filename='icons/contact.png')}}" alt="contact">
-                    <img src="{{ url_for('staic', filename='icons/gallery.png')}}" alt="gallery">
-                    <img src="{{ url_for('staic', filename='icons/map.png')}}" alt="map">
-                </div>
-                <div id = "downnavright">
-                    <img src="{{ url_for('static', filename='icons/shortlistlogo.png')}}" id = "shortlistButton" alt="shortlist logo">
-                    <img src="{{ url_for('static', filename='icons/sort.png')}}" alt="sort">
-                </div>
-            </div>
-        </section>
-        <section class="epic" key = "1">
-            <div class="main-content">
-                <div class = "name">
-                    <h3> Epic Designs </h3>
-                    <img src="{{url_for('static', filename='icons/rating1.png')}}" alt="rating1" class="rating">
-                </div>
-                <p> Passionate team of 4 designers working out of Banglore with an experience of 4 years.</p>
-                <div class="stats">
-                    <div class="stat-item">
-                        <span class="no">57</span>
-                        <span>Projects</span>
-                    </div>
-                    <div class="stat-item">
-                        <span class="no">8</span>
-                        <span>Years</span>
-                    </div>
-                    <div class="stat-item">
-                        <span class="no">$$</span>
-                        <span>Price</span>
-                    </div>
-                </div>
-                <div class="contact">
-                    <span>+91-984532853</span>
-                    <span>+91-984532854</span>
-                </div>
-            </div>
-            <div class="right-panel">
-                <div class="btn">
-                    <img src="{{url_for('static', filename='icons/arrow.png')}}" alt="arrow"><br/>
-                    <span>Details</span>
-                </div>
-                <div class="btn">
-                    <img src="{{url_for('static', filename='icons/eye.png')}}" alt="eye"><br/>
-                    <span>Hide</span>
-                </div>
-                <div class="btn">
-                    <img src="{{url_for('static', filename='icons/shortlist.png')}}" id = "imgButton" alt="shortlist"><br/>
-                    <span>Shortlist</span>
-                </div>
-                <div class="btn">
-                    <img src="{{url_for('static', filename='icons/!.png')}}" alt="!"><br/>
-                    <span>Report</span>
-                </div>
-            </div>
-        </section>
+  <main>
+    <section id="navigation">
+      <div id="upnav">
+        <img src="{{url_for('static', filename='icons/logo.png')}}" alt="logo">
+        <h2>EmptyCup</h2>
+        <img src="{{url_for('static',filename='icons/3dots.png')}}" alt="3dots">
+      </div>
+      <div id="downnav">
+        <div id="downnavleft">
+          <img src="{{ url_for('static', filename='icons/contact.png')}}" alt="contact">
+          <img src="{{ url_for('static', filename='icons/gallery.png')}}" alt="gallery">
+          <img src="{{ url_for('static', filename='icons/map.png')}}" alt="map">
+        </div>
+        <div id="downnavright">
+          <img src="{{ url_for('static', filename='icons/shortlistlogo.png')}}" id="shortlistButton"
+            alt="shortlist logo">
+          <img src="{{ url_for('static', filename='icons/sort.png')}}" alt="sort">
+        </div>
+      </div>
+    </section>
+    <section class="epic" key="1">
+      <div class="main-content">
+        <div class="name">
+          <h3> Epic Designs </h3>
+          <img src="{{url_for('static', filename='icons/rating1.png')}}" alt="rating1" class="rating">
+        </div>
+        <p> Passionate team of 4 designers working out of Banglore with an experience of 4 years.</p>
+        <div class="stats">
+          <div class="stat-item">
+            <span class="no">57</span>
+            <span>Projects</span>
+          </div>
+          <div class="stat-item">
+            <span class="no">8</span>
+            <span>Years</span>
+          </div>
+          <div class="stat-item">
+            <span class="no">$$</span>
+            <span>Price</span>
+          </div>
+        </div>
+        <div class="contact">
+          <span>+91-984532853</span>
+          <span>+91-984532854</span>
+        </div>
+      </div>
+      <div class="right-panel">
+        <div class="btn">
+          <img src="{{url_for('static', filename='icons/arrow.png')}}" alt="arrow"><br />
+          <span>Details</span>
+        </div>
+        <div class="btn">
+          <img src="{{url_for('static', filename='icons/eye.png')}}" alt="eye"><br />
+          <span>Hide</span>
+        </div>
+        <div class="btn">
+          <img src="{{url_for('static', filename='icons/shortlist.png')}}" id="imgButton" alt="shortlist"><br />
+          <span>Shortlist</span>
+        </div>
+        <div class="btn">
+          <img src="{{url_for('static', filename='icons/!.png')}}" alt="!"><br />
+          <span>Report</span>
+        </div>
+      </div>
+    </section>
 
-        <section class="epic" key = "1">
-            <div class="main-content">
-                <div class = "name">
-                    <h3> Studio-D3 </h3>
-                    <img src="{{url_for('static', filename='icons/rating2.png')}}" alt="rating2" class="rating">
-                </div>
-                <p> Passionate team of 4 designers working out of Banglore with an experience of 4 years.</p>
-                <div class="stats">
-                    <div class="stat-item">
-                        <span class="no">43</span>
-                        <span>Projects</span>
-                    </div>
-                    <div class="stat-item">
-                        <span class="no">6</span>
-                        <span>Years</span>
-                    </div>
-                    <div class="stat-item">
-                        <span class="no">$$$</span>
-                        <span>Price</span>
-                    </div>
-                </div>
-                <div class="contact">
-                    <span>+91-984532853</span>
-                    <span>+91-984532854</span>
-                </div>
-            </div>
-            <div class="right-panel">
-                <div class="btn">
-                    <img src="{{url_for('static', filename='icons/arrow.png')}}" alt="arrow">
-                    <span>Details</span>
-                </div>
-                <div class="btn">
-                    <img src="{{url_for('static', filename='icons/eye.png')}}" alt="eye">
-                    <span>Hide</span>
-                </div>
-                <div class="btn">
-                   <img src="{{url_for('static', filename='icons/shortlist.png')}}"  alt="shortlist">
-                    <span>Shortlist</span>
-                </div>
-                <div class="btn">
-                    <img src="{{url_for('static', filename='icons/!.png')}}" alt="!">
-                    <span>Report</span>
-                </div>
-            </div>
-        </section>
+    <section class="epic" key="1">
+      <div class="main-content">
+        <div class="name">
+          <h3> Studio-D3 </h3>
+          <img src="{{url_for('static', filename='icons/rating2.png')}}" alt="rating2" class="rating">
+        </div>
+        <p> Passionate team of 4 designers working out of Banglore with an experience of 4 years.</p>
+        <div class="stats">
+          <div class="stat-item">
+            <span class="no">43</span>
+            <span>Projects</span>
+          </div>
+          <div class="stat-item">
+            <span class="no">6</span>
+            <span>Years</span>
+          </div>
+          <div class="stat-item">
+            <span class="no">$$$</span>
+            <span>Price</span>
+          </div>
+        </div>
+        <div class="contact">
+          <span>+91-984532853</span>
+          <span>+91-984532854</span>
+        </div>
+      </div>
+      <div class="right-panel">
+        <div class="btn">
+          <img src="{{url_for('static', filename='icons/arrow.png')}}" alt="arrow">
+          <span>Details</span>
+        </div>
+        <div class="btn">
+          <img src="{{url_for('static', filename='icons/eye.png')}}" alt="eye">
+          <span>Hide</span>
+        </div>
+        <div class="btn">
+          <img src="{{url_for('static', filename='icons/shortlist.png')}}" alt="shortlist">
+          <span>Shortlist</span>
+        </div>
+        <div class="btn">
+          <img src="{{url_for('static', filename='icons/!.png')}}" alt="!">
+          <span>Report</span>
+        </div>
+      </div>
+    </section>
 
-        <section class="epic" key = "2">
-            <div class="main-content">
-                <div class = "name">
-                    <h3> House of designs </h3>
-                    <img src="{{url_for('static', filename='icons/rating2.png')}}" alt="rating2" class="rating">
-                </div>
-                <p>This is a random paragraph</p>
-            </div>
-            <div class="right-panel">
-                <div class="btn">
-                    <img src="{{url_for('static', filename='icons/arrow.png')}}" alt="arrow">
-                    <span>Details</span>
-                </div>
-                <div class="btn">
-                    <img src="{{url_for('static', filename='icons/eye.png')}}" alt="eye">
-                    <span>Hide</span>
-                </div>
-                <div class="btn">
-                   <img src="{{url_for('static', filename='icons/shortlist.png')}}"  alt="shortlist">
-                    <span>Shortlist</span>
-                </div>
-                <div class="btn">
-                    <img src="{{url_for('static', filename='icons/!.png')}}" alt="!">
-                    <span>Report</span>
-                </div>
-            </div>
-        </section> 
-    </main>
+    <section class="epic" key="2">
+      <div class="main-content">
+        <div class="name">
+          <h3> House of designs </h3>
+          <img src="{{url_for('static', filename='icons/rating2.png')}}" alt="rating2" class="rating">
+        </div>
+        <p>This is a random paragraph</p>
+      </div>
+      <div class="right-panel">
+        <div class="btn">
+          <img src="{{url_for('static', filename='icons/arrow.png')}}" alt="arrow">
+          <span>Details</span>
+        </div>
+        <div class="btn">
+          <img src="{{url_for('static', filename='icons/eye.png')}}" alt="eye">
+          <span>Hide</span>
+        </div>
+        <div class="btn">
+          <img src="{{url_for('static', filename='icons/shortlist.png')}}" alt="shortlist">
+          <span>Shortlist</span>
+        </div>
+        <div class="btn">
+          <img src="{{url_for('static', filename='icons/!.png')}}" alt="!">
+          <span>Report</span>
+        </div>
+      </div>
+    </section>
+  </main>
 </body>
 
 </html>
